@@ -31,6 +31,16 @@ Department_Manager.emp_no = Employees.emp_no;
 
 List the department of each employee with the following information: employee number, last name, first name, and department name.
 
+SELECT Employees.emp_no, 
+Employees.last_name, 
+Employees.first_name,
+Departments.dept_name
+FROM Employees
+INNER JOIN Department_Manager ON
+Employees.emp_no = Department_Manager.emp_no
+INNER JOIN Departments ON
+Department_Manager.dept_no = Departments.dept_no;
+
 List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
 List all employees in the Sales department, including their employee number, last name, first name, and department name.
