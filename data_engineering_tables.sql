@@ -1,4 +1,4 @@
---Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
+--Use the information you have and create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
 
 --For the primary keys check if the column is unique, otherwise create a composite key. Which takes to primary keys in order to uniquely identify a row.
 
